@@ -1,7 +1,7 @@
 # EXPERIMENT-01: BUILDING LOGICAL CIRCUITS
 
-## Name : Ammoditaa Kandpal 
-## Register Number : RA2511030010362
+## Name : ABHI
+## Register Number : RA2511030010318
 
 ## 1. Aim
 
