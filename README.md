@@ -205,3 +205,48 @@ EXPERIMENT-01-BUILDING-LOGICAL-CIRCUITS/
 6. How many truth-table rows are required for six inputs?
 7. What is logic depth?
 8. Why is functional verification necessary?
+
+
+1. What are universal logic gates?
+
+Universal logic gates are logic gates that can be used to implement any Boolean function. NAND and NOR gates are called universal gates because any basic logic gate can be constructed using them.
+
+2. State De Morgan's theorems.
+
+De Morgan's theorems are:
+1. The complement of a sum is equal to the product of the complements.
+   \[
+   \overline{A+B}=\bar A\cdot\bar B
+   \]
+2. The complement of a product is equal to the sum of the complements.
+   \[
+   \overline{A\cdot B}=\bar A+\bar B
+   \]
+3. What is the difference between SOP and POS?
+- SOP (Sum of Products): It is a Boolean expression in which product terms are connected using OR operations.
+- POS (Product of Sums): It is a Boolean expression in which sum terms are connected using AND operations.
+4. How does XOR differ from XNOR?
+- XOR: Produces output 1 when the inputs are different.
+- XNOR: Produces output 1 when the inputs are the same.
+5. How can Boolean expressions be simplified?
+
+Boolean expressions can be simplified using Boolean algebra laws, De Morgan's theorems, Karnaugh maps (K-maps), and logic identities. Simplification reduces the number of gates and circuit complexity.
+
+6. How many truth-table rows are required for six inputs?
+
+The number of truth-table rows is calculated using \(2^n\), where n is the number of inputs.
+
+For six inputs:
+\[
+2^6=64
+\]
+
+Therefore, 64 rows are required.
+
+7. What is logic depth?
+
+Logic depth is the maximum number of logic gates that a signal passes through from input to output in a digital circuit. Lower logic depth generally results in faster circuit operation.
+
+8. Why is functional verification necessary?
+
+Functional verification is necessary to ensure that a digital circuit works correctly according to its design specifications. It helps detect errors, verify expected outputs, and ensure the reliability of the circuit before implementation.
